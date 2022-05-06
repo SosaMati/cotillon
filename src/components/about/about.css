@@ -1,0 +1,35 @@
+.ab {
+    
+    position: relative;
+}
+
+.c-about{
+    margin-top: 50px;
+    position: relative;
+}
+
+.text-about {
+    background-color: #FF0072;
+    width: 55%;
+    padding: 8% 11% 8% 5%;
+    color: white;
+    position: absolute;
+}
+
+.img-about {
+    margin-left: 50%; 
+    padding-top: 60px;
+}
+
+.img-about img {
+    width: 100%;
+    position: absolute;
+}
+
+.c-bottom {
+    margin-top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

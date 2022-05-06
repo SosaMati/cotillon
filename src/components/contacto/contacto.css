@@ -1,0 +1,107 @@
+
+.c {
+    height: 150vh;
+    position: relative;
+}
+
+.c-bg {
+    width: 20px;
+    height: 55%;
+    background-color: #FF0072;
+    position: absolute;
+}
+
+.c-wrapper {
+    margin-top: 50px;
+    padding: 50px;
+    display: flex;
+}
+
+.c-left {
+    flex: 1;
+}
+
+.c-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-title {
+    font-size: 25px;
+}
+
+.c-info-item {
+    display: flex;
+    align-items: center;
+    margin: 40px 0px;
+    width: 300px;
+}
+
+.c-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.c-desc {
+    font-weight: 400;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input {
+    width: 55%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    margin: 10px 0px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+textarea {
+    width: 100%;
+    margin: 10px 0px;
+    font-size: 14px;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+}
+
+.buttonForm {
+    border: none;
+    width: 100%;
+    padding: 15px;
+    background-color: #FF0072;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.c-link {
+    margin-left: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+.c-link:hover {
+    transform:scale(1.1);
+    color: black;
+}
+
+
+.buttonForm:hover {
+    background-color: #f84193;
+}
+
+.c-inline {
+    display: flex;
+    align-items: center;
+}
+
+.c-inline img {
+    margin-right: 10px;
+}
