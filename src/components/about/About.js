@@ -4,8 +4,8 @@ import { CarrouselAbout } from '../corrouselAbout/CarrouselAbout';
 
 export const About = () => {
     return (
-        <div className="container ab">
-            <div className ='c-about'>
+        <div className="ab">
+            <div className ='c-about container'>
                 <div className= 'text-about animate__animated animate__fadeInLeftBig'>
                     <h1>About</h1>
                     <br/>

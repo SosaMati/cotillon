@@ -11,7 +11,7 @@ export const NavBar = () => {
                 <img src={logo} alt="logo" className="logo animate__animated animate__backInLeft"/>
             </Link>
 
-            <img className='banderin' src= { banderin } />
+            <img className='banderin' src= { banderin } alt='banderin' />
             
             <div className="navbar">
                 

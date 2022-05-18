@@ -84,7 +84,7 @@ export const Contacto = () => {
                         <img className='c-icon' src= {reloj} alt= 'reloj' />
                         <h2>Horarios de atención</h2>
                     </div>
-                    <h6>Estamos abiertos de lunes a viernes de 08:30 a 13:00 y de 16:00 a 20:00. Los sábados abrimos de 09:00 a 14:00.</h6>
+                    <h6 className='desc-c'>Estamos abiertos de lunes a viernes de 08:30 a 13:00 y de 16:00 a 20:00. Los sábados abrimos de 09:00 a 14:00.</h6>
 
                     <br/>
                     <br/>
@@ -93,7 +93,7 @@ export const Contacto = () => {
                         <img className='c-icon' src= {ubicacion} alt= 'ubicacion' />
                         <h2>Dirección</h2>
                     </div>
-                    <h6>Estamos ubicados en Colón 465, entre las calles Edilfredo Ameghino y Dr. Travi, (frente al Skatepark), Belén de Escobar.</h6>
+                    <h6 className='desc-c'>Estamos ubicados en Colón 465, entre las calles Edilfredo Ameghino y Dr. Travi, (frente al Skatepark), Belén de Escobar.</h6>
                 </div>
 
                 <div className='c-right'>

@@ -1,5 +1,5 @@
 import './categorias.css';
-import { data } from '../../data';
+import { categoriasData } from '../../data';
 import { Categoria } from './Categoria';
 
 
@@ -11,7 +11,7 @@ export const Categorias = () => {
             </div>
 
             <div className='c-list' >
-                {data.map((categoria) => (
+                {categoriasData.map((categoria) => (
                     <Categoria
                         key={categoria.id}
                         img={categoria.img}

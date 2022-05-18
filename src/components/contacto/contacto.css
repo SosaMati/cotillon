@@ -2,6 +2,9 @@
 .c {
     height: 150vh;
     position: relative;
+    display: flex;
+    flex-direction: column;
+  
 }
 
 .c-bg {
@@ -15,10 +18,12 @@
     margin-top: 50px;
     padding: 50px;
     display: flex;
+    font-display: row;
+    
 }
 
 .c-left {
-    flex: 1;
+    flex: 1;;
 }
 
 .c-right {
@@ -104,4 +109,19 @@ textarea {
 
 .c-inline img {
     margin-right: 10px;
+}
+
+.desc-c {
+    width: 80%;
+}
+
+/* Medias Queries */
+
+
+@media only screen and (max-width: 768px) {
+    
+}
+
+@media only screen and (max-width: 600px) {
+    
 }
