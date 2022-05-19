@@ -37,3 +37,37 @@
 .c-img:hover {
     transform: scale(1.1);
 }
+
+
+
+/* Medias Queries */
+@media only screen and (max-width: 1200px) {
+    
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .cat {
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+
+    .c-cat {
+        height: auto;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .cat {
+        margin-top: 10px;
+    }
+
+    .c-cat {
+        width: 45%;
+        margin: 5px;
+    }
+    
+}

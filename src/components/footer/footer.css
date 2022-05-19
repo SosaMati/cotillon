@@ -32,9 +32,11 @@
 .redf {
     font-size: 17px;
     flex: 1;
-    margin-left: 550px;
+    right: 0;
+    text-align: right;
     
 }
+
 
 .iconf {
     width: 20px;
@@ -67,3 +69,23 @@
     color: rgb(107, 35, 71);
 }
 
+
+
+/* Medias Queries */
+@media only screen and (max-width: 1200px) {
+    
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .contenedor {
+        margin-top: 100px;
+    }
+
+  
+}
+
+@media only screen and (max-width: 600px) {
+    
+}

@@ -15,19 +15,19 @@ export const NavBar = () => {
             
             <div className="navbar">
                 
-                <NavLink to="/"  className="button" activeClassName="active">
+                <NavLink to="/"  className="button">
                     Inicio
                 </NavLink>
 
-                <NavLink to="/productos"  className="button" activeClassName="active">
+                <NavLink to="/productos"  className="button">
                     Productos
                 </NavLink>
 
-                <NavLink to="/about"  className="button" activeClassName="active">
+                <NavLink to="/about"  className="button">
                     Sobre Nosotros
                 </NavLink>
 
-                <NavLink to="/contacto"  className="button" activeClassName="active">
+                <NavLink to="/contacto"  className="button">
                     Contacto
                 </NavLink>
 

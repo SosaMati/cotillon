@@ -8,6 +8,8 @@ import { Productos } from "../productos/Productos";
 import { SvgFondo } from "../svgFondo/SvgFondo";
 import { NavBar } from "../ui/NavBar";
 
+import '../../style/style.css'
+
 export const AppRouter = () => {
 
     
