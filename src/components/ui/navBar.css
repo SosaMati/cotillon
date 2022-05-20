@@ -47,6 +47,7 @@
 nav {
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 
@@ -77,10 +78,99 @@ nav {
 }
 
 
+/* BURGUERBUTTON */
+
+.nav-icon-5{
+    width: 35px;
+    height: 30px;
+    margin: 10px 10px;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+}
+.nav-icon-5 span{
+    background-color: #FF0072;
+    position: absolute;
+    border-radius: 2px;
+    transition: .3s cubic-bezier(.8, .5, .2, 1.4);
+    width:100%;
+    height: 4px;
+    transition-duration: 500ms
+}
+.nav-icon-5 span:nth-child(1){
+    top:0px;
+    left: 0px;
+}
+.nav-icon-5 span:nth-child(2){
+    top:13px;
+    left: 0px;
+    opacity:1;
+}
+.nav-icon-5 span:nth-child(3){
+    bottom:0px;
+    left: 0px;
+}
+.nav-icon-5:not(.open):hover span:nth-child(1){
+    transform: rotate(-3deg) scaleY(1.1);
+}
+.nav-icon-5:not(.open):hover span:nth-child(2){
+    transform: rotate(3deg) scaleY(1.1);
+}
+.nav-icon-5:not(.open):hover span:nth-child(3){
+    transform: rotate(-4deg) scaleY(1.1);
+}
+.nav-icon-5.open span:nth-child(1){
+    transform: rotate(45deg);
+    top: 13px;
+}
+.nav-icon-5.open span:nth-child(2){
+    opacity:0;
+}
+.nav-icon-5.open span:nth-child(3){
+    transform: rotate(-45deg);
+    top: 13px;
+}
+
+.burguer {
+    display: none;
+}
+
+.navbar {
+    position: absolute;
+    left: -700px;
+    transition: all 0.3s ease-in-out;
+   
+}
+
+.navbar  a {
+    display: block;
+}
+
+.navbar.active {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
 
 /* Medias Queries */
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 768px) {
     
+    .navbar {
+        position: initial;
+        
+    }
+
+    .navbar.active {
+        position: initial;
+       
+    }
+    
+    .navbar a {
+        display: inline;
+    }
+
 }
 
 
@@ -90,10 +180,25 @@ nav {
         display: none;
     }
 
-    
+    .burguer {
+        display: block;
+        margin-top: 30px;
+    }
 
-    
-    
+    .button {
+        padding: 20px;
+        width: 75%;
+        margin: 0 auto;
+        background-color: #d1166dda;
+        color: white;
+        z-index: 99;
+    }
+
+    .navbar a {
+      
+        margin-bottom: 5px;
+    }
+
 }
 
 @media only screen and (max-width: 600px) {

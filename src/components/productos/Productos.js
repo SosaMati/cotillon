@@ -47,7 +47,7 @@ export const Productos = () => {
     return (
         <div className="container prod">
             <div className='productos'>
-                <h1>Reposteria</h1>
+                <h1>Repostería</h1>
                 <Slider {...settings}>
                     {reposteriaData.map(item=>(
                         <div className='card'>
@@ -62,6 +62,8 @@ export const Productos = () => {
                         </div>
                     ))}
                 </Slider>
+                <br/>
+                <hr/>
             </div>
 
             <div className='productos'>
@@ -80,6 +82,8 @@ export const Productos = () => {
                         </div>
                     ))}
                 </Slider>
+                <br/>
+                <hr/>
             </div>
 
             <div className='productos'>
@@ -98,6 +102,8 @@ export const Productos = () => {
                         </div>
                     ))}
                 </Slider>
+                <br/>
+                <hr/>
             </div>
 
             <div className='productos'>
@@ -116,6 +122,8 @@ export const Productos = () => {
                         </div>
                     ))}
                 </Slider>
+                <br/>
+                <hr/>
             </div>
 
             <div className='productos'>
@@ -134,6 +142,8 @@ export const Productos = () => {
                         </div>
                     ))}
                 </Slider>
+                <br/>
+                <hr/>
             </div>
 
             <div className='productos'>
@@ -152,6 +162,8 @@ export const Productos = () => {
                         </div>
                     ))}
                 </Slider>
+                <br/>
+                <hr/>
             </div>
 
             <div className='productos'>
@@ -170,6 +182,8 @@ export const Productos = () => {
                         </div>
                     ))}
                 </Slider>
+                <br/>
+                <hr/>
             </div>
 
             <div className='productos'>
@@ -188,6 +202,8 @@ export const Productos = () => {
                         </div>
                     ))}
                 </Slider>
+                <br/>
+                <hr/>
             </div>
 
             <div className='productos'>
