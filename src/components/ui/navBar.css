@@ -1,10 +1,10 @@
 .button {
-    font-size: 10px;
-    letter-spacing: 2px;
+    font-size: 70%;
+    letter-spacing: .1rem;
     text-transform: uppercase;
     text-align: center;
     padding: 0.7em 2em;
-    margin: 0 2px;
+    margin: 0 1px;
     /*border: 1px solid #FF0072;*/
     border-radius: 2px;
     position: relative;
@@ -58,8 +58,8 @@ nav {
 
 .banderin {
     margin-top: 10px;
-    width: 300px;
-    height: 80px;
+    width: 20%;
+    height: 10%;
     animation: banderin 1s infinite;
     -webkit-animation: banderin 10s infinite;
 }
@@ -186,16 +186,15 @@ nav {
     }
 
     .button {
-        padding: 20px;
-        width: 75%;
+        padding: 25px;
+        width: 90%;
         margin: 0 auto;
-        background-color: #d1166dda;
+        background-color: #d1166d;
         color: white;
         z-index: 99;
     }
 
     .navbar a {
-      
         margin-bottom: 5px;
     }
 
@@ -203,9 +202,15 @@ nav {
 
 @media only screen and (max-width: 600px) {
     
-    .logo {
-        width: 250px;
+    .navbar {
+        
+        height: 55vh;
+        margin-top: 120px;
+        background-color: rgba(255, 255, 255, 0.815);
+        z-index: 99;
     }
+    
+   
 }
     
 
