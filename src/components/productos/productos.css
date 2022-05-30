@@ -87,5 +87,51 @@
 }
 
 @media only screen and (max-width: 600px) {
+
+    .slick-prev:before {
+        display: none;
+        
+      }
+      
+    .slick-next:before {
+        display: none;
+        
+    }
+
+    .card-top > img {
+
+        height: 300px;
+
+    }
+
+    .card-top h2 {
+        margin: 10px;
+    }
+
+    .card {
+        height: 400px;
+    }
+
+    .slick-slide > div {
+        margin: 0px;
+    }
     
+    .slick-list {
+        margin: 15px;
+    }
+
+    .prod {
+        margin-top: 50px;
+    
+    }
+
+    .productos {
+        margin-bottom: 50px;
+    }
+    
+    .productos h1 {
+        margin-left: 0px;
+        margin-bottom: 10px;
+        padding-left: 0px;
+    }
 }

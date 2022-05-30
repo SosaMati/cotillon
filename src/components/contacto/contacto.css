@@ -137,5 +137,22 @@ textarea {
 }
 
 @media only screen and (max-width: 600px) {
+
+    .c-bg {
+        margin-top: 15px;
+        height: 45%;
+    }
+
+    .c-title {
+        font-size: 20px;
+    }
+
+    .c-info-item {
+        margin: 20px 0;
+    }
+
+    .c-desc {
+        margin-top: 50px;
+    }
     
 }
