@@ -1,12 +1,20 @@
 import './categorias.css';
+import { NavLink } from 'react-router-dom';
+import { useState } from 'react';
 
-export const Categoria = ({ img }) => {
+export const Categoria = ({ img, link }) => {
+
+    const [clicked, setClicked] = useState(false);
+
+    const handleClick = () => {
+        setClicked(!clicked);
+    }
+
     return (
         <div className="c-cat">
-            <a href="http://" target="_blank">
+            <NavLink onClick={handleClick} to= {link} >
                 <img src={img} alt="categoria" className='c-img' />
-            </a>
-            
+            </NavLink>
         </div>
     )
 }

@@ -1,6 +1,8 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import { NavLink } from 'react-router-dom';
+import { useState } from 'react';
 
 
 import './productos.css';
@@ -44,10 +46,19 @@ export const Productos = () => {
         ]
     };
 
+    const [clicked, setClicked] = useState(false);
+
+    const handleClick = () => {
+        setClicked(!clicked);
+    }
+
+
     return (
-        <div className="container prod animate__animated animate__fadeInUp">
+        <div className="container prod animate__animated animate__fadeIn">
             <div className='productos'>
-                <h1>Repostería</h1>
+                <NavLink onClick={handleClick} to= '/reposteria' >
+                    <h1>Repostería</h1>
+                </NavLink>
                 <Slider {...settings}>
                     {reposteriaData.map(item=>(
                         <div className='card'>
@@ -67,7 +78,9 @@ export const Productos = () => {
             </div>
 
             <div className='productos'>
-                <h1>Bazar y descartables</h1>
+                <NavLink onClick={handleClick} to= '/bazar' >
+                    <h1>Bazar y descartables</h1>
+                </NavLink>
                 <Slider {...settings}>
                     {bazarData.map(item=>(
                         <div className='card'>
@@ -87,7 +100,9 @@ export const Productos = () => {
             </div>
 
             <div className='productos'>
-                <h1>Manualidades</h1>
+                <NavLink onClick={handleClick} to= '/manualidades' >
+                    <h1>Manualidades</h1>
+                </NavLink>
                 <Slider {...settings}>
                     {categoriasData.map(item=>(
                         <div className='card'>
@@ -107,7 +122,9 @@ export const Productos = () => {
             </div>
 
             <div className='productos'>
-                <h1>Fiesta carioca</h1>
+                <NavLink onClick={handleClick} to= '/carioca' >
+                    <h1>Fiesta carioca</h1>
+                </NavLink>
                 <Slider {...settings}>
                     {categoriasData.map(item=>(
                         <div className='card'>
@@ -127,7 +144,9 @@ export const Productos = () => {
             </div>
 
             <div className='productos'>
-                <h1>Decoracion Fiestas</h1>
+                <NavLink onClick={handleClick} to= '/deco' >
+                    <h1>Decoracion Fiestas</h1>
+                </NavLink>
                 <Slider {...settings}>
                     {categoriasData.map(item=>(
                         <div className='card'>
@@ -147,7 +166,9 @@ export const Productos = () => {
             </div>
 
             <div className='productos'>
-                <h1>Golosinas y snacks</h1>
+                <NavLink onClick={handleClick} to= '/golosinas' >
+                    <h1>Golosinas y snacks</h1>
+                </NavLink>
                 <Slider {...settings}>
                     {categoriasData.map(item=>(
                         <div className='card'>
@@ -167,7 +188,9 @@ export const Productos = () => {
             </div>
 
             <div className='productos'>
-                <h1>Fiesta infantil</h1>
+                <NavLink onClick={handleClick} to= '/infantiles' >
+                    <h1>Fiesta infantil</h1>
+                </NavLink>
                 <Slider {...settings}>
                     {categoriasData.map(item=>(
                         <div className='card'>
@@ -187,7 +210,9 @@ export const Productos = () => {
             </div>
 
             <div className='productos'>
-                <h1>Disfraces</h1>
+                <NavLink onClick={handleClick} to= '/disfraces' >
+                    <h1>Disfraces</h1>
+                </NavLink>
                 <Slider {...settings}>
                     {categoriasData.map(item=>(
                         <div className='card'>
@@ -207,7 +232,9 @@ export const Productos = () => {
             </div>
 
             <div className='productos'>
-                <h1>Fechas puntuales</h1>
+                <NavLink onClick={handleClick} to= '/fechas' >
+                    <h1>Fechas puntuales</h1>
+                </NavLink>
                 <Slider {...settings}>
                     {categoriasData.map(item=>(
                         <div className='card'>

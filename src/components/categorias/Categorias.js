@@ -16,6 +16,7 @@ export const Categorias = () => {
                         key={categoria.id}
                         img={categoria.img}
                         name={categoria.name}
+                        link={categoria.link}
                     />
                 ))}
 

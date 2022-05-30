@@ -24,54 +24,63 @@ export const categoriasData = [
         id: 1,
         name: 'Reposteria',
         img: reposteria, 
+        link: '/reposteria',
     },
     
     {
         id: 2,
         name: 'Bazar',
         img: bazar,
+        link: '/bazar',
     },
 
     {
         id: 3,
         name: 'Manualidades',
         img: manualidades,
+        link: '/manualidades',
     },
 
     {
         id: 4,
         name: 'Luminosa',
         img: luminosa,
+        link: '/carioca',
     },
 
     {
         id: 5,
         name: 'Decoracion',
         img: decoracion,
+        link: '/deco',
     },
 
     {
         id: 6,
         name: 'Golosinas',
         img: golosinas,
+        link: '/golosinas',
     },
 
     {
         id: 7,
         name: 'Infantiles',
         img: infantiles,
+        link: '/infantiles',
     },
 
     {
         id: 8,
         name: 'Disfraces',
         img: disfraces,
+        link: '/disfraces',
     },
 
     {
         id: 9,
         name: 'Fechas',
         img: fechas,
+        link: '/fechas',
     }
 ];
 

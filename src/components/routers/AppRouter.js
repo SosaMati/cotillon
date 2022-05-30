@@ -8,6 +8,11 @@ import { Productos } from "../productos/Productos";
 import { SvgFondo } from "../svgFondo/SvgFondo";
 import { NavBar } from "../ui/NavBar";
 
+import { Reposteria } from "../reposteria/Reposteria";
+import { Bazar } from "../bazar/Bazar";
+
+
+
 import '../../style/style.css'
 
 export const AppRouter = () => {
@@ -28,6 +33,17 @@ export const AppRouter = () => {
                     <Route path="/productos" element={<Productos/>} />
                     <Route path="/about" element={<About/>} />
                     <Route path="/contacto" element={<Contacto/>} />
+
+                    <Route path="/reposteria" element={<Reposteria/>} />
+                    <Route path="/bazar" element={<Bazar/>} />
+                    <Route path="/manualidades" element={<Reposteria/>} />
+                    <Route path="/carioca" element={<Reposteria/>} />
+                    <Route path="/deco" element={<Reposteria/>} />
+                    <Route path="/golosinas" element={<Reposteria/>} />
+                    <Route path="/infantiles" element={<Reposteria/>} />
+                    <Route path="/disfraces" element={<Reposteria/>} />
+                    <Route path="/fechas" element={<Reposteria/>} />
+                    
 
                     <Route path="*" element={
                         <Navigate replace to='/' />
