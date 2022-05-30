@@ -29,9 +29,16 @@
 .redf {
     font-size: 17px;
     flex: 1;
-    right: 0;
-    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
+
+.redf ul {
+    width: 300px;
+}
+
+
 
 
 .iconf {
@@ -91,15 +98,20 @@
     }
 
     .dirf {
-      
         text-align: left;
         width: 100%;
     }
 
     .redf {
-        text-align: left;
-        
         width: 100%;
+        
+    }
+    
+    .redf ul {
+        width: 100%;
+        
+
+
     }
 
     

@@ -45,7 +45,7 @@ export const Productos = () => {
     };
 
     return (
-        <div className="container prod">
+        <div className="container prod animate__animated animate__fadeInUp">
             <div className='productos'>
                 <h1>Repostería</h1>
                 <Slider {...settings}>
