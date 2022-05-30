@@ -55,6 +55,8 @@
 
     .c-cat {
         height: auto;
+        width: 48%;
+        margin:  auto;
     }
 
 }

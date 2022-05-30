@@ -4,12 +4,11 @@ import mailf from '../../assets/mailf.svg';
 import facebookf from '../../assets/facebookf.svg';
 import instagramf from '../../assets/instagramf.svg';
 
-import footerf from '../../assets/footer.svg';
 
 export const Footer = () => {
     return (
-        <div>
-            <img className='fondof' src={footerf} alt='fondo' />
+        <div className="footer">
+            
             <div className="contenedor container">
                 <div className="wrapper">
                 <div className='dirf'>
