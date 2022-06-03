@@ -11,6 +11,8 @@ import { NavBar } from "../ui/NavBar";
 import { Reposteria } from "../reposteria/Reposteria";
 import { Bazar } from "../bazar/Bazar";
 
+import whatsapp from "../../assets/whatsapp.svg";
+
 
 
 import '../../style/style.css'
@@ -49,6 +51,9 @@ export const AppRouter = () => {
                         <Navigate replace to='/' />
                     } />
                 </Routes>
+
+                <a href="https://api.whatsapp.com/send?phone=5493484342298" target="_blank" rel="noreferrer" ><img className='apiwhatsapp' src={ whatsapp } alt='whatsapp'/></a>
+                
 
                 <Footer/>
             </div>

@@ -1,3 +1,18 @@
+.apiwhatsapp {
+    width: 70px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 99;
+}
+
+.apiwhatsapp:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+
+
 /* Medias Queries */
 @media only screen and (max-width: 1200px) {
     
@@ -6,7 +21,9 @@
 
 @media only screen and (max-width: 768px) {
 
-
+.apiwhatsapp {
+    display: none;
+}
     
 }
 
