@@ -168,11 +168,7 @@ export const decoData = [
 ];
 
 export const golosinasData = [
-    {
-        id: 1,
-        name: '',
-        img: '',
-    },
+
 ];
 
 export const infantilesData = [
