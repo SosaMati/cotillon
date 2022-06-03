@@ -1,8 +1,4 @@
 import './carrouselAbout.css';
-import globos from '../../assets/globos.jpg';
-import piñata from '../../assets/piñata.jpg';
-import velas from '../../assets/velas.jpg';
-
 
 export const CarrouselAbout = () => {
     return (
@@ -16,13 +12,13 @@ export const CarrouselAbout = () => {
             </div>
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                <img src={globos} className="d-block w-100" alt="..."/>
+                <img src='https://res.cloudinary.com/dapxymupf/image/upload/v1654279902/laHormiguitaViajera/imagenes/cotillon3_rb7kar.jpg' className="d-block w-100" alt="cotillon"/>
                 </div>
                 <div className="carousel-item">
-                <img src={piñata} className="d-block w-100" alt="..."/>
+                <img src='https://res.cloudinary.com/dapxymupf/image/upload/v1654279902/laHormiguitaViajera/imagenes/cotillon2_y4p8m6.jpg' className="d-block w-100" alt="cotillon"/>
                 </div>
                 <div className="carousel-item">
-                <img src={velas} className="d-block w-100" alt="..."/>
+                <img src='https://res.cloudinary.com/dapxymupf/image/upload/v1654279902/laHormiguitaViajera/imagenes/cotillon1_f7kxsi.jpg' className="d-block w-100" alt="cotillon"/>
                 </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

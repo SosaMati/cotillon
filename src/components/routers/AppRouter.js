@@ -10,6 +10,13 @@ import { NavBar } from "../ui/NavBar";
 
 import { Reposteria } from "../reposteria/Reposteria";
 import { Bazar } from "../bazar/Bazar";
+import { Manualidades } from "../manualidades/Manualidades";
+import { Luminosa } from "../luminosa/Luminosa";
+import { Deco } from "../decoracion/Deco";
+import { Golosinas } from "../golosinas/Golosinas";
+import { Infantiles } from "../infantiles/Infantiles";
+import { Disfraces } from "../disfraces/Disfraces";
+import { Fechas } from "../fechas/Fechas";
 
 import whatsapp from "../../assets/whatsapp.svg";
 
@@ -38,13 +45,13 @@ export const AppRouter = () => {
 
                     <Route path="/reposteria" element={<Reposteria/>} />
                     <Route path="/bazar" element={<Bazar/>} />
-                    <Route path="/manualidades" element={<Reposteria/>} />
-                    <Route path="/carioca" element={<Reposteria/>} />
-                    <Route path="/deco" element={<Reposteria/>} />
-                    <Route path="/golosinas" element={<Reposteria/>} />
-                    <Route path="/infantiles" element={<Reposteria/>} />
-                    <Route path="/disfraces" element={<Reposteria/>} />
-                    <Route path="/fechas" element={<Reposteria/>} />
+                    <Route path="/manualidades" element={<Manualidades/>} />
+                    <Route path="/carioca" element={<Luminosa/>} />
+                    <Route path="/deco" element={<Deco/>} />
+                    <Route path="/golosinas" element={<Golosinas/>} />
+                    <Route path="/infantiles" element={<Infantiles/>} />
+                    <Route path="/disfraces" element={<Disfraces/>} />
+                    <Route path="/fechas" element={<Fechas/>} />
                     
 
                     <Route path="*" element={

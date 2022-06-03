@@ -6,7 +6,8 @@ import { useState } from 'react';
 
 
 import './productos.css';
-import { categoriasData, reposteriaData, bazarData } from "../../data";
+import { fechasData, disfracesData, infantilesData, golosinasData, decoData, luminosaData, categoriasData, reposteriaData, bazarData, manualidadesData } from "../../data";
+
 
 
 export const Productos = () => {
@@ -104,7 +105,7 @@ export const Productos = () => {
                     <h1>Manualidades</h1>
                 </NavLink>
                 <Slider {...settings}>
-                    {categoriasData.map(item=>(
+                    {manualidadesData.map(item=>(
                         <div className='card'>
                             <div className='card-top'>
                                 <img src={item.img} alt={item.name} />
@@ -126,7 +127,7 @@ export const Productos = () => {
                     <h1>Fiesta carioca</h1>
                 </NavLink>
                 <Slider {...settings}>
-                    {categoriasData.map(item=>(
+                    {luminosaData.map(item=>(
                         <div className='card'>
                             <div className='card-top'>
                                 <img src={item.img} alt={item.name} />
@@ -148,7 +149,7 @@ export const Productos = () => {
                     <h1>Decoracion Fiestas</h1>
                 </NavLink>
                 <Slider {...settings}>
-                    {categoriasData.map(item=>(
+                    {decoData.map(item=>(
                         <div className='card'>
                             <div className='card-top'>
                                 <img src={item.img} alt={item.name} />
@@ -170,7 +171,7 @@ export const Productos = () => {
                     <h1>Golosinas y snacks</h1>
                 </NavLink>
                 <Slider {...settings}>
-                    {categoriasData.map(item=>(
+                    {golosinasData.map(item=>(
                         <div className='card'>
                             <div className='card-top'>
                                 <img src={item.img} alt={item.name} />
@@ -189,10 +190,10 @@ export const Productos = () => {
 
             <div className='productos'>
                 <NavLink onClick={handleClick} to= '/infantiles' >
-                    <h1>Fiesta infantil</h1>
+                    <h1>Fiestas infantiles</h1>
                 </NavLink>
                 <Slider {...settings}>
-                    {categoriasData.map(item=>(
+                    {infantilesData.map(item=>(
                         <div className='card'>
                             <div className='card-top'>
                                 <img src={item.img} alt={item.name} />
@@ -214,7 +215,7 @@ export const Productos = () => {
                     <h1>Disfraces</h1>
                 </NavLink>
                 <Slider {...settings}>
-                    {categoriasData.map(item=>(
+                    {disfracesData.map(item=>(
                         <div className='card'>
                             <div className='card-top'>
                                 <img src={item.img} alt={item.name} />
@@ -236,7 +237,7 @@ export const Productos = () => {
                     <h1>Fechas puntuales</h1>
                 </NavLink>
                 <Slider {...settings}>
-                    {categoriasData.map(item=>(
+                    {fechasData.map(item=>(
                         <div className='card'>
                             <div className='card-top'>
                                 <img src={item.img} alt={item.name} />

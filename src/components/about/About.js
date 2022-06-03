@@ -1,5 +1,4 @@
 import './about.css';
-import cotillon from '../../assets/cotillon.jpg';
 import { CarrouselAbout } from '../corrouselAbout/CarrouselAbout';
 
 export const About = () => {
@@ -28,7 +27,7 @@ export const About = () => {
 
                 </div>
                 <div className='img-about animate__animated animate__fadeInRightBig'>
-                    <img src= { cotillon } alt= 'cotillon' />
+                    <img src='https://res.cloudinary.com/dapxymupf/image/upload/v1654279902/laHormiguitaViajera/imagenes/cotillon4_mdd0yg.jpg' alt= 'cotillon' />
                 </div>
             </div>
 

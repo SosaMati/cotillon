@@ -3,21 +3,21 @@
 }
 
 .c-about{
-    margin-top: 50px;
+    margin-top: 100px;
     position: relative;
 }
 
 .text-about {
     background-color: #FF0072;
-    width: 55%;
-    padding: 8% 11% 8% 5%;
+    width: 70%;
+    padding: 7% 25% 7% 5%;
     color: white;
     position: absolute;
 }
 
 .img-about {
     margin-left: 50%; 
-    padding-top: 60px;
+    padding-top: 160px;
     width: 50%;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .c-bottom {
-    margin-top: 50%;
+    margin-top: 35%;
     display: flex;
     justify-content: center;
     align-items: center;
