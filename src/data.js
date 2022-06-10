@@ -164,11 +164,87 @@ export const luminosaData = [
 ];
 
 export const decoData = [
+    {
+        id: 1,
+        name: 'Cartel Holografico Pared Feliz Cumple',
+        img:'https://res.cloudinary.com/dapxymupf/image/upload/v1654891989/laHormiguitaViajera/productos/Decoracion/decoracion_ma7bmc.png',
+    },
+    {
+        id: 2,
+        name: 'Banderin Holografico Gigante Bienvenidos',
+        img:'https://res.cloudinary.com/dapxymupf/image/upload/v1654891986/laHormiguitaViajera/productos/Decoracion/decoracion2_rifoie.png',
+    },
+    {
+        id: 3,
+        name: 'Banderin Holografico Chico C/Flecos Feliz Cumple',
+        img: 'https://res.cloudinary.com/dapxymupf/image/upload/v1654891987/laHormiguitaViajera/productos/Decoracion/decoracion3_avrjqt.png',
+    },
+    {
+        id: 4,
+        name:'Cortina Plateado 2.20X0.80 M',
+        img: 'https://res.cloudinary.com/dapxymupf/image/upload/v1654891994/laHormiguitaViajera/productos/Decoracion/decoracion4_qug7n1.png',
+    },
+    {
+        id: 5,
+        name:'Cortina Dorado 2.2X0.80 M',
+        img: 'https://res.cloudinary.com/dapxymupf/image/upload/v1654891993/laHormiguitaViajera/productos/Decoracion/decoracion5_goajtn.png',
+    },
+    {
+        id: 6,
+        name:'Globo Feliz Cumple 9 Tuky X 25U',
+        img:'https://res.cloudinary.com/dapxymupf/image/upload/v1654891989/laHormiguitaViajera/productos/Decoracion/decoracion6_wubgup.png',
+    },
+    {
+        id: 7,
+        name:'Globo Chrome 12 Multicolor Tuky X 10U',
+        img:'https://res.cloudinary.com/dapxymupf/image/upload/v1654891987/laHormiguitaViajera/productos/Decoracion/decoracion7_u7gnmj.png',
+    },
+
+
 
 ];
 
 export const golosinasData = [
-
+    {
+        id: 1,
+        name: 'Caramelo Masticable Lheritier 300G',
+        img:'https://res.cloudinary.com/dapxymupf/image/upload/v1654893577/laHormiguitaViajera/productos/Golosinas/golosinas_vf1khb.png',
+    },
+    {
+        id: 2,
+        name: 'Caramelo Arcor Frutal 800 G',
+        img:'https://res.cloudinary.com/dapxymupf/image/upload/v1654893578/laHormiguitaViajera/productos/Golosinas/golosinas2_qfwv7l.png',
+    },
+    {
+        id: 3,
+        name: 'Rhodesia X 4U',
+        img: 'https://res.cloudinary.com/dapxymupf/image/upload/v1654893577/laHormiguitaViajera/productos/Golosinas/golosinas3_m8gcge.png',
+    },
+    {
+        id: 4,
+        name:'Rhodesia Mini Terrabusi 60G',
+        img: 'https://res.cloudinary.com/dapxymupf/image/upload/v1654893578/laHormiguitaViajera/productos/Golosinas/golosinas4_zmgnm0.png',
+    },
+    {
+        id: 5,
+        name:'Turron Palmesano X 10U',
+        img: 'https://res.cloudinary.com/dapxymupf/image/upload/v1654893577/laHormiguitaViajera/productos/Golosinas/golosinas5_ln0ou5.png',
+    },
+    {
+        id: 6,
+        name:'Alfajor Blanco Dulce De Leche Simple Guaymallen X 40U',
+        img:'https://res.cloudinary.com/dapxymupf/image/upload/v1654893578/laHormiguitaViajera/productos/Golosinas/golosinas6_ujta6b.png',
+    },
+    {
+        id: 7,
+        name:'Alfajor Negro Dulce De Leche Simple Guaymallen Caja X 40U',
+        img:'https://res.cloudinary.com/dapxymupf/image/upload/v1654893578/laHormiguitaViajera/productos/Golosinas/golosinas7_epiox3.png',
+    },
+    {
+        id: 8,
+        name:'Caramelo Frutal Halloween 396 G',
+        img:'https://res.cloudinary.com/dapxymupf/image/upload/v1654893578/laHormiguitaViajera/productos/Golosinas/golosinas8_fduapr.png',
+    }
 ];
 
 export const infantilesData = [

@@ -23,10 +23,10 @@ export const Footer = () => {
                         
                 <div className='redf'>
                         <ul>
-                            <li> <a className='f-link' href="https://api.whatsapp.com/send?phone=5493484342298" target="_blank" rel="noreferrer" ><img className='iconf' src={ whatsappf } alt='whatsapp'/>  Whatsapp +54 11 123456</a></li>
-                            <li> <a className='f-link' href='http://' target="_blank" rel="noreferrer" ><img className='iconf' src={ mailf } alt='mail' />  lahormiguitaviajera@mail.com</a></li>
-                            <li> <a className='f-link' href="https://www.facebook.com/lahormiguitaviajeracotillon" target="_blank" rel="noreferrer" ><img className='iconf' src={ facebookf } alt='facebook' />  Facebook</a></li>
-                            <li> <a className='f-link' href="https://" target="_blank" rel="noreferrer" ><img className='iconf' src={ instagramf } alt='instagram' />  Instagram</a></li>
+                            <li> <a className='f-link' href="https://api.whatsapp.com/send?phone=5493484342298" target="_blank" rel="noreferrer" ><img className='iconf' src={ whatsappf } alt='whatsapp'/> <p className='text-icon'>Whatsapp +54 11 123456</p> </a></li>
+                            <li> <a className='f-link' href='http://' target="_blank" rel="noreferrer" ><img className='iconf' src={ mailf } alt='mail' /> <p className='text-icon'>lahormiguitaviajera@mail.com</p> </a></li>
+                            <li> <a className='f-link' href="https://www.facebook.com/lahormiguitaviajeracotillon" target="_blank" rel="noreferrer" ><img className='iconf' src={ facebookf } alt='facebook' />  <p className='text-icon'>Facebook</p></a></li>
+                            <li> <a className='f-link' href="https://" target="_blank" rel="noreferrer" ><img className='iconf' src={ instagramf } alt='instagram' />  <p className='text-icon'>Instagram</p></a></li>
                         </ul>
 
                 </div>

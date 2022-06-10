@@ -43,11 +43,15 @@
 
 .iconf {
     width: 20px;
+    padding-bottom: 20px;
+    margin-right: 5px;
 }
+
 
 .f-link {
     color: #fff;
     text-decoration: none;
+    display: flex;
 }
 
 .f-link:hover {
@@ -103,15 +107,22 @@
     }
 
     .redf {
-        width: 100%;
-        
+        width: 100%;  
     }
     
     .redf ul {
         width: 100%;
-        
+        display: flex;
+        justify-content: space-around;
+    }
 
+    .text-icon {
+        display: none;
+    }
 
+    .iconf {
+        width: 50px;
+        margin-top: 20px;
     }
 
     
