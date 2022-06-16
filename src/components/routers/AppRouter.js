@@ -1,5 +1,6 @@
 import { Routes, Route, BrowserRouter, Navigate } from "react-router-dom";
 
+
 import { About } from "../about/About";
 import { Contacto } from "../contacto/Contacto";
 import { Footer } from "../footer/Footer";
@@ -23,12 +24,15 @@ import whatsapp from "../../assets/whatsapp.svg";
 
 
 import '../../style/style.css'
+import ScrollToTop from "./ScrollToTop";
+
 
 export const AppRouter = () => {
 
     
     return (
         <BrowserRouter>
+        <ScrollToTop/>
 
             <SvgFondo />
         
