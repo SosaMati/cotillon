@@ -1,67 +1,57 @@
-import reposteria from '../src/assets/reposteria.png';
-import bazar from '../src/assets/bazar.png';
-import manualidades from '../src/assets/manualidades.png';
-import luminosa from '../src/assets/luminosa.png';
-import decoracion from '../src/assets/decoracion.png';
-import golosinas from '../src/assets/golosinas.png';
-import infantiles from '../src/assets/infantiles.png';
-import disfraces from '../src/assets/disfraces.png';
-import fechas from '../src/assets/fechas.png';
-
 
 export const categoriasData = [
     {
         id: 1,
         name: 'Reposteria',
-        img: reposteria, 
+        img: 'https://res.cloudinary.com/dapxymupf/image/upload/v1655583711/laHormiguitaViajera/categorias/reposteria_aymapk.png', 
         link: '/reposteria',
     },
     {
         id: 2,
         name: 'Bazar',
-        img: bazar,
+        img: 'https://res.cloudinary.com/dapxymupf/image/upload/v1655583710/laHormiguitaViajera/categorias/bazar_s61utg.png',
         link: '/bazar',
     },
     {
         id: 3,
         name: 'Manualidades',
-        img: manualidades,
+        img: 'https://res.cloudinary.com/dapxymupf/image/upload/v1655583710/laHormiguitaViajera/categorias/manualidades_hwsll0.png',
         link: '/manualidades',
     },
     {
         id: 4,
         name: 'Luminosa',
-        img: luminosa,
+        img: 'https://res.cloudinary.com/dapxymupf/image/upload/v1655583710/laHormiguitaViajera/categorias/luminosa_vhh3mw.png',
         link: '/carioca',
     },
     {
         id: 5,
         name: 'Decoracion',
-        img: decoracion,
+        img: 'https://res.cloudinary.com/dapxymupf/image/upload/v1655583710/laHormiguitaViajera/categorias/decoracion_hly7ft.png',
         link: '/deco',
     },
     {
         id: 6,
         name: 'Golosinas',
-        img: golosinas,
+        img: 'https://res.cloudinary.com/dapxymupf/image/upload/v1655583708/laHormiguitaViajera/categorias/golosinas_pxkaa5.png',
         link: '/golosinas',
     },
     {
         id: 7,
         name: 'Infantiles',
-        img: infantiles,
+        img: 'https://res.cloudinary.com/dapxymupf/image/upload/v1655583708/laHormiguitaViajera/categorias/infantiles_o8qhob.png',
         link: '/infantiles',
     },
     {
         id: 8,
         name: 'Disfraces',
-        img: disfraces,
+        img: 'https://res.cloudinary.com/dapxymupf/image/upload/v1655583711/laHormiguitaViajera/categorias/disfraces_dqjbcc.png',
         link: '/disfraces',
     },
     {
         id: 9,
         name: 'Fechas',
-        img: fechas,
+        img: 'https://res.cloudinary.com/dapxymupf/image/upload/v1655583709/laHormiguitaViajera/categorias/fechas_ohewqe.png',
         link: '/fechas',
     }
 ];

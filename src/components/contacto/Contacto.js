@@ -100,6 +100,7 @@ export const Contacto = () => {
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13176.206624185479!2d-58.7941715!3d-34.3491634!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb20a3a6ea8cee99!2sCotill%C3%B3n%20%22La%20Hormiguita%20viajera%22!5e0!3m2!1ses-419!2sar!4v1651773191357!5m2!1ses-419!2sar"
                         width="400" 
                         height="300" 
+                        title="mapa"
                         style={{border:0}} 
                         allowFullScreen="" 
                         loading="lazy" 
