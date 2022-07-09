@@ -27,3 +27,18 @@
     margin-top: 50px;
     scroll-y: auto;
 }
+
+
+@media only screen and (max-width: 450px) {
+    .card-prod {
+        width: 90%;
+        margin: 5px auto;
+    }
+
+    .card-prod img {
+        width: 90%;
+    }
+
+
+
+}

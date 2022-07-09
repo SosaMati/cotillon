@@ -1,5 +1,5 @@
 .button {
-    font-size: 70%;
+    font-size: 65%;
     letter-spacing: .1rem;
     text-transform: uppercase;
     text-align: center;
@@ -155,6 +155,22 @@ nav {
 
 
 /* Medias Queries */
+
+@media only screen and (max-width: 1200px) {
+    .banderin {
+        display: none;
+    }
+
+    .button {
+        font-size: 62%;
+        letter-spacing: .03rem;
+        padding: 0.5em 0.5em;
+    }
+
+    
+
+}
+
 @media only screen and (min-width: 768px) {
     
     .navbar {
